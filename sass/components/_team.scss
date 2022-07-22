@@ -1,0 +1,37 @@
+.team {
+  background-color: #f5f4fa;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 4px 4px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    figcaption {
+        padding: 30px 15px;
+        background-color: $color-white;
+        border-radius: 0 0 4px 4px;
+    }
+  }
+
+  &__name {
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+  }
+
+  &__role {
+    color: $color-grey;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 16px;
+  }
+}
