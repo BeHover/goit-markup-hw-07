@@ -211,12 +211,9 @@ a:hover, a:focus {
   letter-spacing: 0.03em;
   margin-right: 93px;
 }
-
-.logo:hover,
-.logo:focus {
+.logo:hover, .logo:focus {
   color: #212121;
 }
-
 .logo > span {
   color: #2196f3;
 }

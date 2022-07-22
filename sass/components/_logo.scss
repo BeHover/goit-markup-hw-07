@@ -1,16 +1,16 @@
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    margin-right: 93px;
-  }
-  
-  .logo:hover,
-  .logo:focus {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+
+  &:hover,
+  &:focus {
     color: $color-dark;
   }
-  
-  .logo > span {
+
+  & > span {
     color: $color-blue;
   }
+}
