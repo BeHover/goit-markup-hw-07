@@ -13,12 +13,12 @@
     &:not(:last-child) {
       margin-right: 30px;
     }
+  }
 
-    figcaption {
-        padding: 30px 15px;
-        background-color: $color-white;
-        border-radius: 0 0 4px 4px;
-    }
+  &__content {
+    padding: 30px 15px;
+    background-color: $color-white;
+    border-radius: 0 0 4px 4px;
   }
 
   &__name {

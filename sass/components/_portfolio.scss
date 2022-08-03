@@ -20,8 +20,13 @@
   }
 
   &__item {
-    border: 1px solid #eeeeee;
     max-width: 370px;
+
+    &:hover,
+    &:focus {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
   }
 
   &__link {
@@ -32,16 +37,12 @@
       .project__text {
         transform: translateY(0%);
       }
-
-      figure {
-        overflow: hidden;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-          1px 4px 6px rgba(0, 0, 0, 0.16);
-      }
     }
   }
 
-  &__info {
+  &__content {
+    border: 1px solid #eeeeee;
+    border-top: none;
     padding: 24px 20px;
   }
 
